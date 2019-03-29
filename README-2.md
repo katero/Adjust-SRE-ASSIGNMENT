@@ -1,4 +1,5 @@
-2.Imagine a server with the following specs:
+# ASSIGNMENT 2.
+Imagine a server with the following specs:
 - 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
 - 64GB of ram
 - 2 tb HDD disk space
@@ -11,32 +12,40 @@ What are the challenges of monitoring this?
 
 # Solution
 ## metrics to monitor:
-### server general metrics:?
-¿ª»ú×´Ì¬£º on off
-CPU£º
-current cpu usage and history record
-Memory£ºcurrent memory usage and history record
-IO Network£ºcurrent speed £¬throughout£¬ and history record
-application metrics: SSL certificate validate? ?SSL ³É¹¦ÂÊ? success rate
+### server general metrics
+
+#### å¼€æœºçŠ¶æ€ï¼š on off
+#### CPU:current cpu usage and history record
+
+#### Memoryï¼šcurrent memory usage and history record
+
+#### IO 
+#### Networkï¼šcurrent speed ï¼Œthroughoutï¼Œ and history record
+### application metrics:
+SSL certificate validate? ?
+
+SSL æˆåŠŸç‡?
+
+success rate
 
 ## how:
 pyuntil
-### python ¼à¿ØºÍÔ¤¾¯½Å±¾£¬crontab ºóÌ¨ÔËĞĞ£º
-#### cpu£º
+### python ç›‘æ§å’Œé¢„è­¦è„šæœ¬ï¼Œcrontab åå°è¿è¡Œï¼š
+#### cpuï¼š
 load cpustat.py
-#### ÎÂ¶È£º
+#### æ¸©åº¦ï¼š
 
-#### memory£º
+#### memoryï¼š
 usage  memstat.py
 
-#### Ó²ÅÌ: 
+#### ç¡¬ç›˜: 
 usage  diskstat.py
-#### ÍøÂçnetwork
-#### Ó¦ÓÃ²ãÃæµÄ¼à¿Ø£º
+#### ç½‘ç»œnetwork
+#### åº”ç”¨å±‚é¢çš„ç›‘æ§ï¼š
 
-## Challenge£º
-1¡¢¼à¿Ø½Å±¾µÄ²ÉÑùÊ±¼äÔËĞĞÊ±¼ä£¬Èç¹û¹ıÓÚÆµ·±»áÓ°Ïì±»¼à¿Ø·şÎñÆ÷µÄĞÔÄÜ
-2¡¢¶à¸ö¼à¿Ø½Å±¾£¬ÈİÒ×³ö´í
-3¡¢½øÒ»²½ÄÜ¹»×Ô¶¯»¯£¬Æ½Ì¨»¯£¬´ïµ½24*7µÄ²»¼ä¶Ï¼à¿Ø
+## Challengeï¼š
+1ã€ç›‘æ§è„šæœ¬çš„é‡‡æ ·æ—¶é—´è¿è¡Œæ—¶é—´ï¼Œå¦‚æœè¿‡äºé¢‘ç¹ä¼šå½±å“è¢«ç›‘æ§æœåŠ¡å™¨çš„æ€§èƒ½
+2ã€å¤šä¸ªç›‘æ§è„šæœ¬ï¼Œå®¹æ˜“å‡ºé”™
+3ã€è¿›ä¸€æ­¥èƒ½å¤Ÿè‡ªåŠ¨åŒ–ï¼Œå¹³å°åŒ–ï¼Œè¾¾åˆ°24*7çš„ä¸é—´æ–­ç›‘æ§
 
 
