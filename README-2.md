@@ -12,13 +12,21 @@ What are the challenges of monitoring this?
 
 # Solution
 ## metrics to monitor:
-### server general metrics:?
-开机状态： on off
-CPU：
-current cpu usage and history record
-Memory：current memory usage and history record
-IO Network：current speed ，throughout， and history record
-application metrics: SSL certificate validate? ?SSL 成功率? success rate
+### server general metrics
+
+#### 开机状态： on off
+#### CPU:current cpu usage and history record
+
+#### Memory：current memory usage and history record
+
+#### IO 
+#### Network：current speed ，throughout， and history record
+### application metrics:
+SSL certificate validate? ?
+
+SSL 成功率?
+
+success rate
 
 ## how:
 pyuntil
