@@ -22,9 +22,7 @@ What are the challenges of monitoring this?
 #### IO 
 #### Network：current speed ，throughout， and history record
 ### application metrics:
-SSL certificate validate? ?
-
-SSL 成功率?
+SSL certificate validate
 
 success rate
 
@@ -45,7 +43,9 @@ usage  diskstat.py
 
 ## Challenge：
 1、监控脚本的采样时间运行时间，如果过于频繁会影响被监控服务器的性能
+
 2、多个监控脚本，容易出错
+
 3、进一步能够自动化，平台化，达到24*7的不间断监控
 
 
