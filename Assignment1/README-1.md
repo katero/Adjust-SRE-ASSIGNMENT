@@ -1,4 +1,4 @@
-## 1. Please write a simple CLI application in the language of your choice that does the following: Print the numbers from 1 to 10 in random order to the terminal
+## Please write a simple CLI application in the language of your choice that does the following: Print the numbers from 1 to 10 in random order to the terminal
 
 # How to work on Linux:
 
