@@ -12,7 +12,7 @@ $ vi shufflenumber.py
 ## 2 写代码：
 
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
 import random
 
