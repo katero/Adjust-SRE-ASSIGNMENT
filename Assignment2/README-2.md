@@ -1,4 +1,4 @@
-# ASSIGNMENT 2.
+﻿# ASSIGNMENT 2.
 Imagine a server with the following specs:
 - 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
 - 64GB of ram
@@ -36,7 +36,7 @@ load cpustat.py
 #### memory：
 usage  memstat.py
 
-#### 硬盘: 
+#### IO: 
 usage  diskstat.py
 #### 网络network
 #### 应用层面的监控：
