@@ -1,8 +1,11 @@
-﻿# 1 在terminal 创建脚本:
+# How to work on Linux:
+
+
+## 1 在terminal 创建脚本:
 $ vi shufflenumber.py
 
 
-# 2 写代码：
+## 2 写代码：
 
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -15,6 +18,6 @@ random.shuffle(list)
 print(list)
 
 
-# 3 运行脚本
+## 3 运行脚本
 $ python3 shufflenumber.py
 
