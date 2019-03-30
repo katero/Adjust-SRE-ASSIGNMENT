@@ -12,6 +12,7 @@ $ vi shufflenumber.py
 ## 2 write the code and save：
 
 #!/usr/bin/python
+
 #-*- coding: utf-8 -*-
 
 import random
