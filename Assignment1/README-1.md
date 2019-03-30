@@ -1,4 +1,7 @@
-## Please write a simple CLI application in the language of your choice that does the following: Print the numbers from 1 to 10 in random order to the terminal
+## Please write a simple CLI application in the language of your choice that does the following: Print the numbers from 1 to 10 in random order to the terminal.
+## Please provide a README, that explains detailed how to run the program on MacOS and Linux.
+
+## sorry, but I don't have a MacOS Envrionment
 
 # How to work on Linux:
 
