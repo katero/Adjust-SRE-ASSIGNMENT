@@ -6,11 +6,11 @@ Please write a simple CLI application in the language of your choice that does t
 # How to work on Linux:
 
 
-## 1 Creat a python file :
+## 1 Creat a python file (step1.png):
 $ vi shufflenumber.py
 
 
-## 2 write the code and save：
+## 2 write the code and save(step2.png)：
 
 #!/usr/bin/python
 
@@ -25,6 +25,6 @@ random.shuffle(list)
 print(list)
 
 
-## 3 running the python file and see the result on the terminal:
+## 3 running the python file and see the result on the terminal(step3.png):
 $ python3 shufflenumber.py
 
