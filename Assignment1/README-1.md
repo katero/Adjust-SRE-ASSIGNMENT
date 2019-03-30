@@ -5,11 +5,11 @@
 # How to work on Linux:
 
 
-## 1 在terminal 创建脚本:
+## 1 Creat a python file :
 $ vi shufflenumber.py
 
 
-## 2 写代码：
+## 2 write the code and save：
 
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
@@ -22,6 +22,6 @@ random.shuffle(list)
 print(list)
 
 
-## 3 运行脚本
+## 3 running the python file and see the result on the terminal:
 $ python3 shufflenumber.py
 
