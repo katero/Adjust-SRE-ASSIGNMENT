@@ -27,7 +27,7 @@ SSL certificate validate
 success rate
 
 ## how:
-pyuntil
+# 自定义脚本监控各metrics的值并在超过指定数值后预警，crontab（文件夹script)
 ### python 监控和预警脚本，crontab 后台运行：
 #### cpu：
 load cpustat.py
@@ -41,11 +41,16 @@ usage  diskstat.py
 #### 网络network
 #### 应用层面的监控：
 
+# Platform 监控，比如现有的zabbix(见platformzabbix)
+
 ## Challenge：
 1、监控脚本的采样时间运行时间，如果过于频繁会影响被监控服务器的性能
 
 2、多个监控脚本，容易出错
 
 3、进一步能够自动化，平台化，达到24*7的不间断监控
+
+
+
 
 
