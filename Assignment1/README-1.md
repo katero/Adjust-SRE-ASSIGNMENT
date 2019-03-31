@@ -23,6 +23,6 @@ random.shuffle(list)
 print(list)
 
 
-## 3 run the python file and see the result on the terminal(step3.png):
+## 3 run the python file and get the result on the terminal(step3.png):
 $ python3 shufflenumber.py
 
