@@ -1,4 +1,4 @@
-﻿# ASSIGNMENT 2
+#### ASSIGNMENT 2
 Imagine a server with the following specs:
 - 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
 - 64GB of ram
@@ -10,25 +10,26 @@ Please let us know which metrics are interesting to monitor in that specific cas
 and how would you do that? 
 What are the challenges of monitoring this?
 
-# Solution
-## metrics to monitor:
-### server general metrics
+#### Solution
+#### metrics to monitor:
+**server general metrics :**
 
-#### 开机状态： on off
-#### CPU:current cpu usage and history record
+* Sever running state
+*  CPU
+    *CPU used*
+    *CPU load*
+* Memeroy usage
+* I/O
+    *Disk space usage
+     IO read, IO write*
+* Network traffic
 
-#### Memory：current memory usage and history record
-
-#### IO 
-#### Network：current speed ，throughout， and history record
-### application metrics:
-SSL certificate validate
-
-success rate
+**application metrics :**
+SSL certificate validate status
 
 ## how:
-# 自定义脚本监控各metrics的值并在超过指定数值后预警，crontab（文件夹script)
-### python 监控和预警脚本，crontab 后台运行：
+#### 自定义脚本监控各metrics的值并在超过指定数值后预警，crontab（文件夹script)
+#### python 监控和预警脚本，crontab 后台运行：
 #### cpu：
 load cpustat.py
 #### 温度：
