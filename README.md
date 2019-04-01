@@ -7,21 +7,7 @@ Please write a simple CLI application in the language of your choice that does t
 ## 1 Creat a python file (step1.png):
 $ vi shufflenumber.py
 
-
 ## 2 write the code and save(step2.png)：
-
-#!/usr/bin/python
-
-#-*- coding: utf-8 -*-
-
-import random
-
-list = [1,2,3,4,5,6,7,8,9,10]
-
-random.shuffle(list)
-
-print(list)
-
 
 ## 3 run the python file and get the result on the terminal(step3.png):
 $ python3 shufflenumber.py
