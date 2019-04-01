@@ -55,7 +55,7 @@ What are the challenges of monitoring this?
 
 *SSL certificate validate status*
 ### how to monitor metrics:
-#### * **Method 1: monitor Platform zabbix**
+### Method 1: monitor Platform zabbix
 **1. monitor all the important metrics  in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)**
    * CPU
 
@@ -89,7 +89,7 @@ What are the challenges of monitoring this?
 
 **3. custom metric item graph and trigger not in default(add_new_item(agentconfUserparameter).png, add_new_item(webfront), add_new_graph)**
 
-*  **Method 2: Custom Python script to monitor each metric and send warning when metric value over expected, then add a cron job in the server to run**
+### Method 2: Custom Python script to monitor each metric and send warning when metric value over expected, then add a cron job in the server to run
 * CPU
 
     *CPU used : cpu_used.py*
