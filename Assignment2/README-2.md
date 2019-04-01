@@ -30,15 +30,18 @@ What are the challenges of monitoring this?
     
      *IO read, IO write*
 * Network
+
     *Network traffic*
+    
     *TCP connection states*
 
 **application metrics :**
-SSL certificate validate status
+
+*SSL certificate validate status*
 #### how to monitor metrics:
-* **Method 1: monitor Platform zabbix(见platformzabbix)**
-1. monitor all the metrics statics in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)
-    *  CPU
+* **Method 1: monitor Platform zabbix**
+1. monitor all the important metrics  in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)
+    * CPU
 
     *CPU used(15min_CPU_use.png)*
     
@@ -55,6 +58,7 @@ SSL certificate validate status
      *IO read, IO write*
      
 * Network
+
     *Network traffic（1h_net_traffic.png）*
     
     *TCP connection states*
