@@ -98,10 +98,10 @@ What are the challenges of monitoring this?
  *SSL certificate validate status*
  
     
- ### Challenge：
+ ### challenges of monitoring：
 1. Metrics  monitoring tool should not effect the server's performance. When use script method to monitor,history performance value storaging is very time consuming(write file).
 
 2. Proper trigger warning value，minimum false alarm
 
-3. Performance issue locating and Performance tunning
+3. Platform monitoring configuration can be interesting and challeging.
 
