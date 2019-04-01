@@ -28,7 +28,7 @@ What are the challenges of monitoring this?
 * Network traffic
 
 **application metrics :**
-SSL certificate validate status
+*SSL certificate validate status*
 
 ## how:
 #### 自定义脚本监控各metrics的值并在超过指定数值后预警，crontab（文件夹script)
