@@ -16,7 +16,7 @@ What are the challenges of monitoring this?
 **server general metrics :**
 
 * Sever running state
-*  CPU
+* CPU
 
     *CPU used*
     
