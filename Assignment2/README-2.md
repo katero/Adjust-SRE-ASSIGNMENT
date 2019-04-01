@@ -11,7 +11,7 @@ and how would you do that?
 What are the challenges of monitoring this?
 
 #### Solution
-##### metrics to monitor:
+#### metrics to monitor:
 
 **server general metrics :**
 
@@ -38,7 +38,7 @@ What are the challenges of monitoring this?
 **application metrics :**
 
 *SSL certificate validate status*
-#### how to monitor metrics:
+### how to monitor metrics:
 * **Method 1: monitor Platform zabbix**
 1. monitor all the important metrics  in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)
     * CPU
@@ -64,7 +64,8 @@ What are the challenges of monitoring this?
     *TCP connection states*
     
  * SSL application
- *SSL certificate validate status*
+ 
+ *SSL certificate validate status(template_SSL_Cert_Check_External.xml)*
  
 2. when the metric value is over limit field, will trig the related trigger, and can send alert message through sms or email(triggers.png, send_alert_message.png)
 
@@ -96,9 +97,10 @@ What are the challenges of monitoring this?
  *SSL certificate validate status*
  
     
- #### Challenge：
-1. Metrics  monitoring should not effect the server's performance
+ ### Challenge：
+1. Metrics  monitoring tool should not effect the server's performance
 
-2. 多个监控脚本，容易出错
+2. Proper trigger warning value，minimum false alarm
 
-3. 进一步能够自动化，平台化，达到24*7的不间断监控
+3. Performance issue locating and Performance tunning
+
