@@ -30,7 +30,7 @@ def load_stat():
     loadavg = {}#dictionary
 
     f = open("/proc/loadavg")
-    #python 读取文件，并跳过空格，将每一行的单词存入List中
+    #python read file, get list split by space
     con = f.read().split()
     f.close()
     loadavg['lavg_1']=con[0]
