@@ -1,18 +1,20 @@
 # ASSIGNMENT 1
 Please write a simple CLI application in the language of your choice that does the following: Print the numbers from 1 to 10 in random order to the terminal. Please provide a README, that explains detailed how to run the program on MacOS and Linux.
-# Solution
+#### Solution
 (I don't have a MacOS Envrionment, so only linux version here)
 
-# How to work on Linux:
-## 1 Creat a python file (step1.png):
+#### How to work on Linux:
+
+1. Creat a python file (step1.png):
 $ vi shufflenumber.py
 
-## 2 write the code and save(step2.png)：
+2. write the code and save(step2.png)：
 
-## 3 run the python file and get the result on the terminal(step3.png):
+3. run the python file and get the result on the terminal(step3.png):
+
 $ python3 shufflenumber.py
 
-#### ASSIGNMENT 2
+# ASSIGNMENT 2
 Imagine a server with the following specs:
 - 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
 - 64GB of ram
