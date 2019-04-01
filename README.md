@@ -119,7 +119,7 @@ What are the challenges of monitoring this?
  ### challenges of monitoring
 1.Figure out important metrics to monitor
 
-2. Metrics  monitoring tool should not effect the server's performance. When use script method to monitor,history performance value storaging is very time consuming(write file)
+2.Metrics  monitoring tool should not effect the server's performance. When use script method to monitor,history performance value storaging is very time consuming(write file)
 
 3.Set proper trigger warning value to minimize false alarm
 
