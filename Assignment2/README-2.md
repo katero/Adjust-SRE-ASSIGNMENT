@@ -94,6 +94,7 @@ What are the challenges of monitoring this?
     *TCP connection states*
     
  * SSL application
+ 
  *SSL certificate validate status*
  
     
