@@ -1,4 +1,5 @@
-#!/usr/bin/env Python
+#!/usr/bin/python3
+
 import os
 import socket
 import subprocess
@@ -39,9 +40,6 @@ def load_stat():
     loadavg['last_pid']=con[4]
     return loadavg
 #print("loadavg",load_stat()['lavg_15'])
-
-
-
 
 if __name__ == '__main__':
     if load_stat()['lavg_15'] > 2.8:#4 times cpu
