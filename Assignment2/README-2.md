@@ -72,7 +72,7 @@ What are the challenges of monitoring this?
 3. custom metric item graph and trigger not in default(add_new_item(agentconfUserparameter).png, add_new_item(webfront), add_new_graph)
 
 *  **Method 2: Custom Python script to monitor each metric and send warning when metric value over expected, then add a cron job in the server to run**
-*  CPU
+* CPU
 
     *CPU used : cpu_used.py*
     
