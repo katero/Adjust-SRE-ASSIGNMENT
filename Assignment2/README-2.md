@@ -18,13 +18,14 @@ What are the challenges of monitoring this?
 *  CPU
 
     *CPU used*
+    
     *CPU load*
 * Memeroy usage
 * I/O
 
-    *Disk space usage
+    *Disk space usage*
     
-     IO read, IO write*
+     *IO read, IO write*
 * Network traffic
 
 **application metrics :**
