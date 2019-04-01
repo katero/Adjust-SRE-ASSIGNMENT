@@ -16,11 +16,14 @@ What are the challenges of monitoring this?
 
 * Sever running state
 *  CPU
+
     *CPU used*
     *CPU load*
 * Memeroy usage
 * I/O
+
     *Disk space usage
+    
      IO read, IO write*
 * Network traffic
 
