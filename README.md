@@ -55,33 +55,35 @@ What are the challenges of monitoring this?
 
 *SSL certificate validate status*
 ### how to monitor metrics:
-* **Method 1: monitor Platform zabbix**
+#### * **Method 1: monitor Platform zabbix**
 **1. monitor all the important metrics  in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)**
-    * CPU
+   * CPU
 
-    *CPU used(15min_CPU_use.png)*
+      *CPU used(15min_CPU_use.png)*
     
-    *CPU load(15min_CPU_load.png)*
+      *CPU load(15min_CPU_load.png)*
     
-    *CPU temperature(5min_CPU_temp.png)*
-* Memeroy usage
-   *Memeroy used(6h_mem_use.png*
+      *CPU temperature(5min_CPU_temp.png)*
    
-* I/O
+   * Memeroy usage
+   
+       *Memeroy used(6h_mem_use.png*
+   
+   * I/O
 
-    *Disk space usage(1day_disk_use.png)*
+      *Disk space usage(1day_disk_use.png)*
     
-     *IO read, IO write*
+      *IO read, IO write*
      
-* Network
+    * Network
 
-    *Network traffic（1h_net_traffic.png）*
+        *Network traffic（1h_net_traffic.png）*
     
-    *TCP connection states*
+        *TCP connection states*
     
- * SSL application
+    * SSL application
  
- *SSL certificate validate status(template_SSL_Cert_Check_External.xml)*
+      *SSL certificate validate status(template_SSL_Cert_Check_External.xml)*
  
 **2. when the metric value is over limit field, will trig the related trigger, and can send alert message through sms or email(triggers.png, send_alert_message.png)**
 
