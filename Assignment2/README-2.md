@@ -11,50 +11,90 @@ and how would you do that?
 What are the challenges of monitoring this?
 
 #### Solution
-#### metrics to monitor:
+##### metrics to monitor:
+
 **server general metrics :**
 
+* Sever running state
 *  CPU
 
     *CPU used*
     
     *CPU load*
+    
+    *CPU temperature*
 * Memeroy usage
 * I/O
 
     *Disk space usage*
     
      *IO read, IO write*
-* Network traffic
+* Network
+    *Network traffic*
+    *TCP connection states*
 
 **application metrics :**
-*SSL certificate validate status*
+SSL certificate validate status
+#### how to monitor metrics:
+* **Method 1: monitor Platform zabbix(见platformzabbix)**
+1. monitor all the metrics statics in value or gragh way within certain time(CPU_temp_value.png, CPU_temp_graph)
+    *  CPU
 
-## how:
-#### 自定义脚本监控各metrics的值并在超过指定数值后预警，crontab（文件夹script)
-#### python 监控和预警脚本，crontab 后台运行：
-#### cpu：
-load cpustat.py
-#### 温度：
+    *CPU used(15min_CPU_use.png)*
+    
+    *CPU load(15min_CPU_load.png)*
+    
+    *CPU temperature(5min_CPU_temp.png)*
+* Memeroy usage
+   *Memeroy used(6h_mem_use.png*
+   
+* I/O
 
-#### memory：
-usage  memstat.py
+    *Disk space usage(1day_disk_use.png)*
+    
+     *IO read, IO write*
+     
+* Network
+    *Network traffic（1h_net_traffic.png）*
+    
+    *TCP connection states*
+    
+ * SSL application
+ *SSL certificate validate status*
+ 
+2. when the metric value is over limit field, will trig the related trigger, and can send alert message through sms or email(triggers.png, send_alert_message.png)
 
-#### IO: 
-usage  diskstat.py
-#### 网络network
-#### 应用层面的监控：
+3. custom metric item graph and trigger not in default(add_new_item(agentconfUserparameter).png, add_new_item(webfront), add_new_graph)
 
-# Platform 监控，比如现有的zabbix(见platformzabbix)
+*  **Method 2: Custom Python script to monitor each metric and send warning when metric value over expected, then add a cron job in the server to run**
+*  CPU
 
-## Challenge：
-1、监控脚本的采样时间运行时间，如果过于频繁会影响被监控服务器的性能
+    *CPU used : cpu_used.py*
+    
+    *CPU load : cpu_load.py*
+    
+    *CPU temperature: cpu_temp.py*
+* Memeroy usage
+   *Memeroy used rate : mem_used.py*
+   
+* I/O
 
-2、多个监控脚本，容易出错
+    *Disk space usage: disk_used.py*
+    
+     *IO read, IO write*
+     
+* Network
+    *Network traffic*
+    
+    *TCP connection states*
+    
+ * SSL application
+ *SSL certificate validate status*
+ 
+    
+ #### Challenge：
+1. Metrics  monitoring should not effect the server's performance
 
-3、进一步能够自动化，平台化，达到24*7的不间断监控
+2. 多个监控脚本，容易出错
 
-
-
-
-
+3. 进一步能够自动化，平台化，达到24*7的不间断监控
