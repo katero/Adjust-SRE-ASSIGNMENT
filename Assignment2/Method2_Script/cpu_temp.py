@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python
+
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
